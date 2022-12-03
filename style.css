@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#root {
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(243, 135, 11);
+    border: rgb(224, 167, 101) solid 3px;
+    box-shadow: inset 30px 30px 100px 40px black;
+}
+
+/* eye stuff */
+.eye {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    /* bottom: 41px; */
+    background: rgb(243, 135, 11);
+    border-radius: 75% 0;
+    transform:  rotate(45deg);
+    box-shadow: 5px 5px 5px black;
+    margin-left: 28px;
+}
+
+.eye:hover {
+    background-color: rgb(224, 167, 101);
+}
+
+.eye:hover .pupil {
+    background-color: rgb(224, 167, 101);
+}
+
+.eye:hover .core {
+    background-color: red;
+}
+
+.eye-inner {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    margin-left: 8px;
+    margin-top: 7px;
+}
+.pupil {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background: rgb(243, 135, 11);
+    border-radius: 50%;
+    content: " ";
+    box-shadow: inset 1px 1px 2px black;
+}
+
+.core {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    content: " ";
+}
+/* end eye stuff */
