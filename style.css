@@ -227,3 +227,44 @@ body {
     padding: 30px;
 }
 /* end home stuff */
+
+
+/* start About here */
+.status-text {
+    padding: 20px;
+    color: black;
+}
+
+.aboutImg {
+    border-radius: 50%;
+    border: rgb(224, 167, 101) solid 4px;
+    margin-top: 75px;
+    margin-left: 80px;
+    box-shadow: 0px 0px 100px black;
+}
+
+.statusBox {
+    border: rgb(224, 167, 101) solid 3px;
+    border-radius: 1%;
+    text-shadow: 0px 0px 5px orange;
+    font-weight: bolder;
+    font-size: 17px;
+    background-color: #333;
+    box-shadow: inset 10px 10px 100px black;
+    color: rgb(224, 167, 101);
+}
+
+.aboutContainer {
+    padding: 75px;
+}
+
+.aboutText {
+    padding: 20px;
+}
+
+.aboutStatus {
+    padding: 30px;
+    padding-top: 120px;
+    font-size: 20px;
+}
+/* end about */
