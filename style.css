@@ -370,3 +370,76 @@ body {
     margin-bottom: 20px;
 }
 /* end work page */
+
+/* start contact page */
+.contacticon {
+    list-style: none;
+    font-size: 50px;
+}
+
+.contactcontainer {
+    padding-left: 50px;
+}
+
+.contactlist {
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 3px #333;
+    border-radius: 1%;
+    box-shadow:  0px 0px 30px black;
+}
+
+.contactlist a {
+    color: #333;
+}
+
+.contactlist:hover {
+    border: solid 3px rgb(224, 167, 101);
+    box-shadow:  0px 0px 30px rgb(224, 167, 101);
+}
+
+.contactlist:hover a {
+    color: rgb(224, 167, 101);
+    text-shadow: 0px 0px 10px black;
+}
+
+.contactlist:hover p {
+    color: rgb(224, 167, 101);
+    text-shadow: 0px 0px 10px black;
+}
+
+.contactlist:hover .contacticon {
+    color: rgb(224, 167, 101);
+}
+
+.contactlist p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.contacttitle {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border: solid 3px rgb(224, 167, 101);
+    border-radius: 1%;
+    box-shadow: inset 10px 10px 100px black;
+    color: rgb(224, 167, 101);
+    text-shadow: 0px 0px 10px orange;
+    background-color: #333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contacttitle h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.contacttitle h4 {
+    font-weight: bold;
+}
+
+.firstcontact {
+    margin-bottom: 40px;
+}
+/* end contact page */
