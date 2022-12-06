@@ -130,14 +130,23 @@ body {
 .nav li:hover {
     background-color: orange;
     border: orange solid 5px;
-    --bs-link-hover-color: black;
+    color: black;
     box-shadow: inset 2px 2px 10px black;
     text-decoration: none;
 }
 
+.nav a:hover {
+    color: black;
+}
+
 .nav-link[aria-current="page"] {
-    text-decoration: dashed;
-    background-color: black;
+    
+    border-radius: 1%;
+    text-shadow: 0px 0px 5px orange;
+    font-weight: bolder;
+    background-color: #333;
+    box-shadow: inset 10px 10px 100px black;
+    color: rgb(224, 167, 101);
 }
 /* end nav stuff */
 
