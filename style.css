@@ -119,7 +119,7 @@ body {
     border-radius: 3%;
 }
 
-.nav li:active {
+.nav-link.active {
     background-color: rgb(243, 135, 11);
     border: rgb(243, 135, 11) solid 3px;
     font-size: 25px;
