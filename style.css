@@ -134,6 +134,11 @@ body {
     box-shadow: inset 2px 2px 10px black;
     text-decoration: none;
 }
+
+.nav-link[aria-current="page"] {
+    text-decoration: dashed;
+    background-color: black;
+}
 /* end nav stuff */
 
 
