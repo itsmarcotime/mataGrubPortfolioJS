@@ -1,3 +1,16 @@
+var nameText = [
+  " ", "Marco", "Mata's"
+];
+// Loop through the array of text and schedule each line to be added to the #text-list element
+// with a 2 second delay between each line
+for (var i = 0; i < nameText.length; i++) {
+  setTimeout(function(line) {
+    var div = document.createElement('div');
+    div.innerHTML = line;
+    document.getElementById('timedTitle').appendChild(div);
+  }, i * 1500, nameText[i]);
+};
+
 var arrText = [
   "...Loading...", "Something is different... 🤔", "Someone... is here?! 🤯", "How did you get here?? Who let you...",
   "Nevermind, there is only so much time before THEY notice. 🕒",
@@ -12,5 +25,6 @@ for (var i = 0; i < arrText.length; i++) {
     var div = document.createElement('div');
     div.innerHTML = line;
     document.getElementById('text-list').appendChild(div);
-  }, i * 3500, arrText[i]);
+  }, i * 4000, arrText[i]);
 };
+

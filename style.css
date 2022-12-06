@@ -27,7 +27,6 @@ body {
     display: flex;
     width: 60px;
     height: 60px;
-    /* bottom: 41px; */
     background: rgb(243, 135, 11);
     border-radius: 75% 0;
     transform:  rotate(45deg);
@@ -120,7 +119,7 @@ body {
     border-radius: 3%;
 }
 
-.nav li.active {
+.nav li:active {
     background-color: rgb(243, 135, 11);
     border: rgb(243, 135, 11) solid 3px;
     font-size: 25px;
@@ -220,6 +219,7 @@ body {
     background-color: #333;
     box-shadow: inset 10px 10px 100px black;
     color: rgb(224, 167, 101);
+    margin-top: 100px;
 }
 
 .home-text {
@@ -304,7 +304,7 @@ body {
     transition: all 0.5s ease;
     margin: 30px;
     margin-left: 100px;
-    
+    margin-top: 100px;
 }
 
 .card-text {
@@ -494,3 +494,27 @@ body {
 .resume-text h4 {
     font-weight: bold;
 }
+/* END RESUME STUFF*/
+
+
+/* start eye bunch stuff */
+#canvas1 {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+#container {
+    height: 50px;
+
+  }
+  
+  #content {
+    height: 1000px;
+    background-color: rgba(120,120,120,1);
+  }
+  
+  #clientY_display {
+    position: fixed;
+  }
