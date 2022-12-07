@@ -2,12 +2,12 @@
 created by Marco Mata
 
 ## Table of Contents
-1. [Description]
-2. [Built-with]
-3. [Contribution]
-4. [Usage]
-6. [Questions]
-7. [Preview]
+1. [Description](#description)
+2. [Built-with](#built-with)
+3. [Contribution](#contribution)
+4. [Usage](#usage)
+6. [Questions](#questions)
+7. [Preview](#preview)
 
 ## Description
 My personal portfolio to show my skills, projects and other information on myself. Hope you enjoy!
@@ -22,7 +22,7 @@ Unfortunatly, I will not be accepting help for this project.
 Live website: https://itsmarcotime.github.io/mataGrubPortfolioJS/
 
 ## Questions
-Questions? 
+Questions? <br /> 
 <a href="https://www.linkedin.com/in/marco-mata-8165bb175/">LinkedIn</a><br />
 mmata3309@gmail.com
 
