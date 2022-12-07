@@ -10,7 +10,7 @@ created by Marco Mata
 7. [Preview](#preview)
 
 ## Description
-My personal portfolio to show my skills, projects and other information on myself. Hope you enjoy!
+My personal portfolio to show my skills, projects, and other information on myself. Hope you enjoy!
 
 ## Built-with
 This version of the application was built using HTML, CSS, Bootstrap, & JavaScript.
