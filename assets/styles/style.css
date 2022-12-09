@@ -535,24 +535,80 @@ body {
 /* END RESUME STUFF*/
 
 
+/* start media queries for tablets */
+@media screen and (max-width: 768px) {
+    /*home page*/
+    .home-div {
+        margin-left: 200px;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+    /*home page*/
+    .nav li {
+        font-size: 16px;
+        margin-left: 4px;
+    }
+
+    .eyeNav {
+        margin-left: 120px;
+    }
+
+    .home-div {
+        margin-left: 45px;
+    }
+
+    .maincontainer {
+        margin-left: -219px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    /*home page*/
+    .nav li {
+        margin-left: 0px;
+    }
+
+    .maincontainer {
+        margin-left: -207px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    /*home page*/
+    .nav li {
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    .maincontainer {
+        margin-left: -200px;
+        margin-right: 90px;
+    }
+}
+
+
+
+
+
 /* start eye bunch stuff */
-#canvas1 {
+/* #canvas1 {
     top: 0;
     width: 100%;
     height: 100%;
     background: black;
 }
-
 #container {
     height: 50px;
 
-  }
-  
-  #content {
+}
+
+#content {
     height: 1000px;
-    background-color: rgba(120,120,120,1);
-  }
-  
-  #clientY_display {
+    background-color: rgba(120, 120, 120, 1);
+}
+
+#clientY_display {
     position: fixed;
-  }
+} */
