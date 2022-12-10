@@ -614,6 +614,13 @@ body {
         margin-top: 16px;
     }
     /* end contact */
+
+
+    /* start resume */
+    .resume-text {
+        margin-left: 92px;
+    }
+    /* end resume */
 }
 
 @media screen and (max-width: 415px) {
@@ -682,6 +689,13 @@ body {
 
     
     /* start resume */
+    .resumeTextContainer {
+        margin-left: -39px;
+    }
+
+    .resume-title {
+        margin-left: 1px;
+    }
 }
 
 @media screen and (max-width: 391px) {
