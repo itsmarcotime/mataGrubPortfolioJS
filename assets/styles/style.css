@@ -277,11 +277,11 @@ body {
     border-radius: 50%;
     border: rgb(224, 167, 101) solid 4px;
     margin-top: 75px;
-    margin-left: 80px;
+    margin-left: 200px;
     box-shadow: 0px 0px 100px black;
 }
 
-.statusBox {
+.statusBoxAbout {
     border: rgb(224, 167, 101) solid 3px;
     border-radius: 1%;
     text-shadow: 0px 0px 5px orange;
@@ -290,6 +290,18 @@ body {
     background-color: #333;
     box-shadow: inset 10px 10px 100px black;
     color: rgb(224, 167, 101);
+}
+
+.statusBoxAbout2 {
+    border: rgb(224, 167, 101) solid 3px;
+    border-radius: 1%;
+    text-shadow: 0px 0px 5px orange;
+    font-weight: bolder;
+    font-size: 19px;
+    background-color: #333;
+    box-shadow: inset 10px 10px 100px black;
+    color: rgb(224, 167, 101);
+    margin-left: 200px;
 }
 
 .aboutContainer {
@@ -302,8 +314,12 @@ body {
 
 .aboutStatus {
     padding: 30px;
-    padding-top: 120px;
+    padding-top: 90px;
     font-size: 20px;
+}
+
+.upperAbout {
+    margin-bottom: 130px;
 }
 /* end about */
 
@@ -541,7 +557,29 @@ body {
     .home-div {
         margin-left: 200px;
     }
+    /*end home page */
 
+    /* start about */
+    .aboutStatus {
+        padding-top: 30px;
+        font-size: 17px;
+    }
+
+    .statusBoxAbout {
+        padding-top: 74px;
+        margin-left: 250px;
+        margin-right: -100px;
+    }
+
+    .statusBoxAbout2 {
+        margin-left: 126px;
+    }
+
+    .aboutImg {
+        margin-left: 150px;
+        margin-bottom: 80px;
+    }
+    /*end about*/
 }
 
 @media screen and (max-width: 415px) {
@@ -562,6 +600,31 @@ body {
     .maincontainer {
         margin-left: -219px;
     }
+    /*end homepage */
+
+
+    /*start about*/
+    .aboutImg {
+        width: 150px;
+        height: 150px;
+        margin-left: 27px;
+    }
+
+    .aboutStatus {
+        font-size: 14px;
+    }
+
+    .statusBoxAbout {
+        padding-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .statusBoxAbout2 {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    /*end about*/
 }
 
 @media screen and (max-width: 391px) {
@@ -573,6 +636,13 @@ body {
     .maincontainer {
         margin-left: -207px;
     }
+    /*end homepage */
+
+
+    /*start about*/
+    /*end about*/
+
+
 }
 
 @media screen and (max-width: 376px) {
@@ -586,6 +656,14 @@ body {
         margin-left: -200px;
         margin-right: 90px;
     }
+    /*end homepage */
+
+
+    /*start about*/
+    .aboutImg {
+        margin-left: 12px;
+    }
+    /*end about*/
 }
 
 
