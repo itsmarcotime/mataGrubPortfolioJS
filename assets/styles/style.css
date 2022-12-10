@@ -600,6 +600,20 @@ body {
     .workimg1 {
         width: 200px;
     }
+    /* end work */
+
+
+    /* start contact */
+    .contacticon {
+        font-size: 34px;
+        margin-top: 20px;
+    }
+
+    .contactlist p {
+        font-size: 8px;
+        margin-top: 16px;
+    }
+    /* end contact */
 }
 
 @media screen and (max-width: 415px) {
@@ -660,6 +674,14 @@ body {
     .maincontainer {
         margin-left: -160px;
     }
+    /* end work */
+
+
+    /* start contact */
+    /*end contact */
+
+    
+    /* start resume */
 }
 
 @media screen and (max-width: 391px) {
@@ -682,6 +704,14 @@ body {
     .maincontainer {
         margin-left: -155px;
     }
+    /* end work */
+
+
+    /* start contact */
+    /*end contact */
+
+    
+    /* start resume */
 }
 
 @media screen and (max-width: 376px) {
@@ -718,6 +748,14 @@ body {
     .maincontainer {
         margin-left: -110px;
     }
+    /* end work */
+
+
+    /* start contact */
+    /*end contact */
+
+    
+    /* start resume */
 }
 
 
