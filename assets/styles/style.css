@@ -325,18 +325,23 @@ body {
 
 
 /* start work page */
+.titlemargin {
+    padding-top: 30px;
+}
+
 .worktitle {
     background-color: #333;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
     width: 25%;
-    margin-left: 565px;
+    margin-left: 113px;
     box-shadow: inset 1px 1px 20px black;
     color: rgb(224, 167, 101);
     border: rgb(224, 167, 101) solid 3px;
     border-radius: 1%;
     text-shadow: 0px 0px 5px orange;
+    padding: 10px;
 }
 
 .maincontainer {
@@ -580,6 +585,21 @@ body {
         margin-bottom: 80px;
     }
     /*end about*/
+
+
+    /* start work */
+    .worktitle {
+        margin-left: 135px;
+        margin-top: 10px;
+    }
+
+    .titlemargin {
+        padding-top: 25px;
+    }
+
+    .workimg1 {
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 415px) {
@@ -625,6 +645,21 @@ body {
         font-size: 15px;
     }
     /*end about*/
+
+
+    /* start work */
+    .worktitle {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .titlemargin {
+        padding-top: 25px;
+    }
+
+    .maincontainer {
+        margin-left: -160px;
+    }
 }
 
 @media screen and (max-width: 391px) {
@@ -643,6 +678,10 @@ body {
     /*end about*/
 
 
+    /* start work */
+    .maincontainer {
+        margin-left: -155px;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -664,6 +703,21 @@ body {
         margin-left: 12px;
     }
     /*end about*/
+
+
+    /*start work */
+    .worktitle {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .titlemargin {
+        padding-top: 25px;
+    }
+
+    .maincontainer {
+        margin-left: -110px;
+    }
 }
 
 
