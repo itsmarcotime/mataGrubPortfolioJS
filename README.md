@@ -6,8 +6,8 @@ created by Marco Mata
 2. [Built-with](#built-with)
 3. [Contribution](#contribution)
 4. [Usage](#usage)
-6. [Questions](#questions)
-7. [Preview](#preview)
+5. [Questions](#questions)
+6. [Preview](#preview)
 
 ## Description
 My personal portfolio to show my skills, projects, and other information on myself. Hope you enjoy!
